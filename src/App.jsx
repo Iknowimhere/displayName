@@ -18,10 +18,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setShowName(true);
-    setFormData({
-      firstName: '',
-      lastName: '',
-    });
   };
   return (
     <>
